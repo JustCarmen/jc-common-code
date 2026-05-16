@@ -43,6 +43,6 @@ $local_common_library_version = $local_composer_versions['versions']['justcarmen
 //This ensures that always the latest library version is autoloaded
 if (version_compare($local_common_library_version, $autoload_common_library_version, '>')) {
     $loader->addPsr4('JustCarmen\\Webtrees\\Internationalization\\', __DIR__ . '/Internationalization');
-    $loader->addPsr4('JustCarmen\\Webtrees\\Service\\',  __DIR__ . '/Log');
+    $loader->addPsr4('JustCarmen\\Webtrees\\Service\\',  __DIR__ . '/Service');
     $loader->register(true);
 }
