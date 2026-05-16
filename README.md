@@ -1,7 +1,7 @@
 JC Common Code
 ===========================
 
-This webtrees custom module provides common classes to be used by other custom modules of JustCarmen.
+This webtrees custom module provides common classes to be used by custom modules of JustCarmen.
 
 These modules are:
 - Fancy Imagebar
