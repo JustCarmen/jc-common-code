@@ -27,5 +27,6 @@ if (version_compare($local_common_library_version, $autoload_common_library_vers
     $loader->addPsr4('JustCarmen\\Webtrees\\Helpers\\', __DIR__ . '/Helpers');
     $loader->addPsr4('JustCarmen\\Webtrees\\Internationalization\\', __DIR__ . '/Internationalization');
     $loader->addPsr4('JustCarmen\\Webtrees\\Service\\',  __DIR__ . '/Service');
+    $loader->addPsr4('JustCarmen\\Webtrees\\Traits\\',  __DIR__ . '/Traits');
     $loader->register(true);
 }
